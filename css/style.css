@@ -64,10 +64,9 @@ header > img {
 .menu-item > a {
     color: var(--color1);
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
     font-weight: bold;
 }
-
 
 main {
     margin: 5% 0;
