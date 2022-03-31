@@ -15,8 +15,9 @@
     --color3: #595565; --color4: #954A37; --color5: #AC553D;
     --color6: #9D5C4E; --color7: #a9aebc; --color8: #767983;
     */
+
     /* --background: #2d2c22; */
-    --background: #000;
+    --background: #060606;
     --foreground: #ded4c6;
     --cursor: #ded4c6;
     --color0: #2d2c22;
@@ -42,7 +43,7 @@ header {
     font-size: 22px;
     text-align: center;
     border-bottom: 2px ridge var(--color8);
-    line-height: 50%;
+    line-height: 75%;
 }
 
 header > h1 {
@@ -82,7 +83,7 @@ footer {
 }
 
 a {
-    color: var(--color6);
+    color: var(--color4);
 }
 
 a:hover{
@@ -101,10 +102,14 @@ h1 {
 }
 
 h3 {
-    color: var(--color3);
+    color: var(--color4);
 }
 
-
+img {
+    display:block;
+    margin: auto;
+    width: 100%;
+}
 .ar {
     font-family: DejaVu Sans ;
     direction: rtl ;
