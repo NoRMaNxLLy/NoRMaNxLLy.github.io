@@ -42,8 +42,8 @@ body {
 header {
     font-size: 22px;
     text-align: center;
-    border-bottom: 2px ridge var(--color8);
-    line-height: 75%;
+    border-bottom: 2px ridge var(--color6);
+    line-height: 100%;
 }
 
 header > h1 {
@@ -63,7 +63,7 @@ header > img {
 }
 
 .menu-item > a {
-    color: var(--color1);
+    color: var(--color5);
     text-decoration: none;
     margin: 5px;
     font-weight: bold;
@@ -106,9 +106,9 @@ h3 {
 }
 
 img {
-    display:block;
-    margin: auto;
-    width: 100%;
+    display: block ;
+    margin: auto ;
+    width: 100% ;
 }
 .ar {
     font-family: DejaVu Sans ;
