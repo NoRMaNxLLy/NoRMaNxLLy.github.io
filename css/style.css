@@ -25,7 +25,7 @@ body {
 }
 
 header {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     border-bottom: 1px ridge var(--foreground);
     line-height: 100%;
@@ -33,22 +33,22 @@ header {
 
 header > h1 {
     font-weight: bold;
-    text-shadow: 2px 2px 2px var(--color0);
+    text-shadow: 1px 2px 1px var(--primary);
 }
 
 header > img {
-    width: 25%;
-    border: 1px solid var(--primary);
+    width: 20%;
+    border: 2px solid var(--foreground);
 }
 
 .menu-item {
     display: inline ;
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 5%;
 }
 
 .menu-item > a {
-    color: var(--primary);
+    color: var(--foreground);
     text-decoration: none;
     margin: 5px;
     font-weight: bold;
@@ -57,12 +57,12 @@ header > img {
 main {
     margin: 5% 0;
     color: var(--foreground);
-    line-height: 1.5em;
+    line-height: 1.25em;
     font-size: 14px;
 }
 
 footer {
-    font-size: 12px;
+    font-size: 10px;
     color: var(--color8);
     text-align: center;
 }
@@ -72,7 +72,7 @@ a {
 }
 
 a:hover{
-    color: var(--foreground);
+    color: var(--primary);
     text-decoration: underline;
 }
 
